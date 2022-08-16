@@ -1,4 +1,4 @@
-const breedName = process.argv[2];
+
 const request = require('request');
 
 
@@ -19,6 +19,6 @@ const fetchBreedDescription = ('Siberian', (error, description) => {
 });
 
 
-
+module.exports = { fetchBreedDescription };
 
 
